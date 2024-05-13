@@ -68,11 +68,11 @@
 
         Intellij {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &trans      &trans            &trans         &trans         &trans                                      &trans  &trans  &trans  &trans  &trans  &trans            &trans
+&trans  &trans         &kp F2      &kp LG(NUMBER_4)  &kp LS(F6)     &kp LG(LS(T))  &trans                                      &trans  &trans  &trans  &trans  &trans  &kp LG(NUMBER_1)  &trans
+&trans  &kp LS(LC(O))  &kp LA(F7)  &kp LG(NUMBER_5)  &kp LA(LG(L))  &trans         &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans
+&trans  &trans         &trans      &trans            &trans         &trans                         &trans      &trans                  &trans  &trans  &trans  &trans  &trans            &trans
+&trans  &trans         &trans      &trans            &trans                        &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans            &trans
             >;
         };
 
