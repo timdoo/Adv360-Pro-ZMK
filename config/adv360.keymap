@@ -393,9 +393,12 @@
     };
 
     };
+};
 
+/ {
     keymap {
         compatible = "zmk,keymap";
+
 
         Base {
             bindings = <
