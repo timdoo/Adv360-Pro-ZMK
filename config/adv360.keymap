@@ -404,9 +404,9 @@
             bindings = <
 &trans  &kp NUMBER_1          &kp NUMBER_2         &kp NUMBER_3        &kp NUMBER_4 &kp NUMBER_5  &kp C_VOL_DN                                         &kp C_PREV       &kp NUMBER_6  &kp NUMBER_7 &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0 &trans
 &kp LGUI  &kp Q               &kp W                &kp E               &kp R   &kp T   &kp C_MUTE                                                      &kp C_PP         &kp Y   &kp U   &kp I      &kp O       &kp P          &kp LGUI
-&kp TAB  &homey_left LALT A  &homey_left LCTRL S  &homey_left LGUI D  &kp F   &kp G  &kp C_VOL_UP   &kp LCTRL &kp LALT      &kp LALT  &kp LCTRL  &kp C_NEXT       &kp H   &kp J   &homey_right LGUI K      &homey_right LCTRL L       &homey_right LALT SEMICOLON  &kp LG(LCTRL)
+&kp TAB  &homey_left LALT A  &homey_left LCTRL S  &homey_left LGUI D  &shift_left LSHIFT F   &kp G  &kp C_VOL_UP   &kp LCTRL &kp LALT      &kp LALT  &kp LCTRL  &kp C_NEXT       &kp H   &shift_right LSHIFT J   &homey_right LGUI K      &homey_right LCTRL L       &homey_right LALT SEMICOLON  &kp LG(LCTRL)
 &kp LCTRL  &kp Z               &kp X                &kp C               &kp V   &kp B                         &trans      &trans                                         &kp N   &kp M   &kp COMMA  &kp PERIOD  &kp SLASH      &kp LCTRL
-&mo 4   &trans              &trans               &trans              &trans           &thumb 2 BACKSPACE  &kp LSHFT    &kp LGUI    &kp LGUI &kp SPACE   &thumb 1 ENTER               &trans  &trans     &trans      &trans         &trans
+&mo 4   &trans              &trans               &trans              &trans           &thumb 2 BACKSPACE  &thumb 3 ESC    &kp LGUI    &kp LGUI &kp SPACE   &thumb 1 ENTER               &trans  &trans     &trans      &trans         &trans
             >;
         };
 
@@ -432,11 +432,11 @@
 
         Intellij {
             bindings = <
-&trans  &trans         &trans      &trans            &trans         &trans         &trans                                      &trans  &trans  &trans  &trans  &trans  &trans            &trans
-&trans  &trans         &kp F2      &kp LG(NUMBER_4)  &kp LS(F6)     &kp LG(LS(T))  &trans                                      &trans  &trans  &trans  &trans  &trans  &kp LG(NUMBER_1)  &trans
-&trans  &kp LS(LC(O))  &kp LA(F7)  &kp LG(NUMBER_5)  &kp LA(LG(L))  &trans         &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans
-&trans  &trans         &trans      &trans            &trans         &trans                         &trans      &trans                  &trans  &trans  &trans  &trans  &trans            &trans
-&trans  &trans         &trans      &trans            &trans                        &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans            &trans
+&trans  &trans         &trans      &trans            &trans         &trans         &trans                                      &trans  &trans  &trans  &trans  &trans                    &trans  &trans
+&trans  &trans         &kp F2      &kp LG(NUMBER_4)  &kp LS(F6)     &kp LG(LS(T))  &trans                                      &trans  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans
+&trans  &kp LS(LC(O))  &kp LA(F7)  &kp LG(NUMBER_5)  &kp LA(LG(L))  &trans         &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans  &trans
+&trans  &trans         &trans      &trans            &trans         &trans                         &trans      &trans                  &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans  &trans
+&trans  &trans         &trans      &trans            &trans                        &trans  &trans  &trans      &trans  &trans  &kp NUMBER_0          &trans  &trans  &trans              &trans  &trans
             >;
         };
 
